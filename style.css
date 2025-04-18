@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #004d99;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button-container a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.button-container .download { background-color: #004d40; }
+.button-container .instagram { background-color: #cf530c; }
+.button-container .twitter { background-color: #1da1f2; }
+.button-container .linkedin { background-color: #0077b5; }
+.button-container .github { background-color: #0a0a0a; }
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+  background-color: #004d40;
+  color: white;
+  width: 35%;
+  padding: 20px;
+  text-align: center;
+}
+
+.left-column img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.left-column h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  background-color: #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.skill-bar div {
+  height: 20px;
+  background-color: #00bfa5;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+}
+
+.right-column {
+  width: 65%;
+  padding: 20px;
+}
+
+.right-column h2 {
+  color: #004d40;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.right-column h3 {
+  color: #004d40;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.right-column p, .right-column ul {
+  font-size: 16px;
+}
